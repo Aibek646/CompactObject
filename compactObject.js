@@ -25,4 +25,9 @@ var compactObject = function (obj) {
   
     return dfc(obj);
   };
+
+  const obj = [null, 0, 5, [0], [false, 16]];
+
+  const result = compactObject(obj);
+  console.log(result);
   
